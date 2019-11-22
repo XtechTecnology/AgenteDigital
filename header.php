@@ -12,7 +12,7 @@
     <a href="">Eventos</a>
     <a href="">Quem somos</a>
     <a href="">Ajuda</a>
-    <a href="logar" class="right">Entrar</a>
-    <a href="registro.php" class="right">Registrar</a>
+    <a href="logar" class="right" ><Button id="logar">Entrar</Button></a>
+    <a href="registro.php" class="right" ><button id="registar"> Registrar</button></a>
  
 </div>

@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(235, 230, 230);
+}
+
+/*------------------------Barra de navegação------------------*/
+div.navbar{
+    overflow: hidden;
+    background-color: rgba(58, 154, 245, 0.774);
+    position: fixed;
+    top:  0 ;
+    width: 100%;
+}
+
+div.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.navbar a.right{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.navbar button{
+    background-color: rgb(142, 36, 168);
+    color: white;
+    margin: 8px 2px;
+    border-radius: 35% ;
+    padding: 10px ;
+}
+
+
+/*------------------------Fim da Barra de navegação------------------*/
+
+/*------------------------Tabelas de registro------------------------*/
+table{
+    float: center;
+    border: 1px solid black;
+    border-collapse: collapse ;
+
+}
+
+th,td{
+    border-collapse: collapse;
+
+}
+/*------------------------ Fim da Barra de navegação ------------------*/
+
+/*------------------------------Tela de registro-----------------------*/
+/* .column{
+    float: left;
+    width: 50.00%;
+    padding: 10px;
+
+  }
+  
+*/ 
+.row:after {
+    width: 50%;
+    content: "";
+    display: table;
+    clear: both;
+    
+} /*
+
+.column{
+    float: right;
+    width: 50.00%;
+    padding: 10px;
+     
+}*/
+
+#conteudo-left{
+    position: relative;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#conteudo-rigth{
+    position: relative;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.row button{
+    background-color: rgba(3, 28, 245, 0.877);
+    color: white;
+    margin: 8px 2px;
+    border-radius: 35% ;
+    padding: 10px ;
+}
