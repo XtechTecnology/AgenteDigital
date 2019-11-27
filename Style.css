@@ -1,0 +1,55 @@
+div.navbar{
+    overflow: hidden;
+    background-color: rgb(10, 32, 39);
+    position: fixed;
+    top:  0 ;
+    width: 100%;
+}
+
+div.navbar a {
+    float: left;
+    display: block;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.navbar a.right{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+table{
+    float: center;
+    border: 1px solid black;
+    border-collapse: collapse ;
+
+}
+
+th,td{
+    border-collapse: collapse;
+
+}
+
+div.column{
+    float: left;
+    width: 50.00%;
+    padding: 10px;
+
+  }
+  
+
+.row:after {
+    content: "2";
+    display: table;
+    clear: both;
+}
+
+.column {
+    width: 100%;
+}
