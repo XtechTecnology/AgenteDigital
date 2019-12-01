@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body style="height: 1000px">
+    <header>
+        <div class = "navbar">
+            <img src="img/logo.png" width="5%" align="left">
+            <a href="index.html">Inicio</a>
+            <a href="">Bandas</a>
+            <a href="">Estabelecimentos</a>
+            <a href="">Eventos</a>
+            <a href="">Quem somos</a>
+            <a href="">Ajuda</a>
+            <a href="logar.html"><button class='botao'> Entrar</button></a>
+            <a href="Registro.html" ><button class='botao'>Registrar</button></a>
+
+        </div>
+    </header>
+
+    <section>
+
+        <div class="filter">
+            <tr>
+                <td style="float: right;">Genêro</td>
+                <br>
+            <!-- Generos demonstrativos -->
+                    <td><select name="eMusical">
+                        <option value="pagode">Pagode</option>
+                        <option value="samba">Samba</option>
+                        <option value="forro">Forró</option>
+                        <option value="rock">Rock</option>
+                    </select>
+                    <br>
+                    <br>
+                    </td>
+            </tr>
+            <tr>
+                <td style="float: right;">Estado</td>
+                <br>
+                <!-- Estados demonstrativos, o estado vai ser puxado do banco de dados -->
+                    <td><select name="estado">
+                        <option value="pagode">Amazonas</option>
+                        <option value="samba">Pernambuco</option>
+                        <option value="forro">Bahia</option>
+                        <option value="rock">Alagoas</option>
+                        <option value="pagode">São paulo</option>
+                        <option value="samba">Rio de Janeiro</option>
+                        <option value="forro">Brasília</option
+                    </select><br><br>
+                    </td>
+            </tr>
+            <tr>
+       <!-- Cidades demonstrativas, as cidades serão puxadas do banco de dados -->
+                <td style="float: right;">cidade</td><br>
+                    <td><select name="cidade">
+                        <option value="pagode">Pagode</option>
+                        <option value="samba">Samba</option>
+                        <option value="forro">Forró</option>
+                        <option value="rock">Rock</option>
+                    </select>
+                    </td>
+            </tr>
+        </div>
+
+    </section>
+
+
+
+
+</body>
+</html>

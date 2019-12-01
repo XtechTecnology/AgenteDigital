@@ -1,11 +1,8 @@
-body{
-    background-color: rgb(235, 230, 230);
-}
 
-/*------------------------Barra de navegação------------------*/
+/* ---------------Inicio da barra de navega--------------------- */
 div.navbar{
     overflow: hidden;
-    background-color: rgba(58, 154, 245, 0.774);
+    background-color: rgb(10, 32, 39);
     position: fixed;
     top:  0 ;
     width: 100%;
@@ -14,7 +11,7 @@ div.navbar{
 div.navbar a {
     float: left;
     display: block;
-    color: black;
+    color: rgb(255, 253, 253);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,18 +26,10 @@ div.navbar a.right{
     text-decoration: none;
 }
 
-div.navbar button{
-    background-color: rgb(142, 36, 168);
-    color: white;
-    margin: 8px 2px;
-    border-radius: 35% ;
-    padding: 10px ;
-}
+/* ----------------fim da barra de navega---------------- */
 
+/* -----------colunas e espaçamentos das telas de cadastro -------- */
 
-/*------------------------Fim da Barra de navegação------------------*/
-
-/*------------------------Tabelas de registro------------------------*/
 table{
     float: center;
     border: 1px solid black;
@@ -52,52 +41,40 @@ th,td{
     border-collapse: collapse;
 
 }
-/*------------------------ Fim da Barra de navegação ------------------*/
 
-/*------------------------------Tela de registro-----------------------*/
-/* .column{
+/* -----------fim colunas e espaçamentos das telas de cadastro -------- */
+
+/* ------------------------------- */
+div.column{
     float: left;
     width: 50.00%;
     padding: 10px;
 
   }
   
-*/ 
+
 .row:after {
-    width: 50%;
-    content: "";
+    content: "2";
     display: table;
     clear: both;
-    
-} /*
-
-.column{
-    float: right;
-    width: 50.00%;
-    padding: 10px;
-     
-}*/
-
-#conteudo-left{
-    position: relative;
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
-#conteudo-rigth{
-    position: relative;
-    float: right;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.column {
+    width: 100%;
 }
 
-div.row button{
-    background-color: rgba(3, 28, 245, 0.877);
-    color: white;
-    margin: 8px 2px;
-    border-radius: 35% ;
-    padding: 10px ;
+/* ------------------- */
+
+/* -------------começo do fooder--------------------- */
+
+footer{
+    position: absolute;
+    background-color: rgb(10, 32, 39);
+    position: fixed;
+    width: 100%;
+    color: azure;
+    bottom: 0px;
 }
+
+
+/* -----------------fim do footer------------------- */
